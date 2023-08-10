@@ -1,0 +1,51 @@
+@font-face {
+    /* Random string to make sure we don't load any random cache */
+    font-family: 'lCSmLSV3lt';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    /* Random string to make sure we don't load any random cache */
+    font-family: 'LxxoWPcwW9';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    /* Random string to make sure we don't load any random cache */
+    font-family: 'WaZ6Fh4koV';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    /* Random string to make sure we don't load any random cache */
+    font-family: 'KnJPPTkEhS';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+/* Correctly declared */
+@font-face {
+    font-family: 'inLnMBc4bK';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'inLnMBc4bK';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body {
+    font-family: 'verdana';
+    font-size: 16px;
+}
+
+.normal { font-weight: normal !important; }
+.bold { font-weight: bold !important; }
+
+.roboto-normal { font-family: 'lCSmLSV3lt' !important;}
+.roboto-bold { font-family: 'LxxoWPcwW9' !important;}
+.roboto-w-normal { font-family: 'WaZ6Fh4koV' !important;}
+.roboto-w-bold { font-family: 'KnJPPTkEhS' !important;}
+.roboto-correctly { font-family: 'inLnMBc4bK' !important;}

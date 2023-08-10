@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fonts</title>
+</head>
+<body>
+    <p>Roboto Regular - font-weight normal</p>
+    <p class="roboto-normal normal">The quick brown fox jumps over the lazy dog</p>
+    <br>
+    <p>Roboto Regular - font-weight bold</p>
+    <p class="roboto-normal bold">The quick brown fox jumps over the lazy dog</p>
+    <br>
+    <p>Roboto Bold - font-weight normal</p>
+    <p class="roboto-bold normal">The quick brown fox jumps over the lazy dog</p>
+    <br>
+    <p>Roboto Bold - font-weight bold</p>
+    <p class="roboto-bold bold">The quick brown fox jumps over the lazy dog</p>
+    <br>
+    <p>Next to each other (Roboto Regular to the left and Roboto Bold to the right)</p>
+    <div style="display: flex">
+        <span>Bold: </span>
+        <span class="roboto-normal bold">B</span>
+        <span class="roboto-bold bold">B</span>
+    </div>
+    <div style="display: flex">
+        <span>Normal: </span>
+        <span class="roboto-normal normal">N</span>
+        <span class="roboto-bold normal">N</span>
+    </div>
+    <p>Roboto with font-face weight declaration</p>
+    <div style="display: flex">
+        <span>Bold: </span>
+        <span class="roboto-w-normal bold">B</span>
+        <span class="roboto-w-bold bold">B</span>
+    </div>
+    <div style="display: flex">
+        <span>Normal: </span>
+        <span class="roboto-w-normal normal">N</span>
+        <span class="roboto-w-bold normal">N</span>
+    </div>
+    <p>Roboto with font-face correctly declared vs not</p>
+    <div style="display: flex">
+        <span>Bold: </span>
+        <span class="roboto-w-bold bold">B</span>
+        <span class="roboto-correctly bold">B</span>
+    </div>
+    <div style="display: flex">
+        <span>Normal: </span>
+        <span class="roboto-w-normal normal">N</span>
+        <span class="roboto-correctly normal">N</span>
+    </div>
+</body>
+</html>
